@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  background-image: url("./aaaa.jpg");
+  background-size: contain; /* Вписывает картинку в контейнер без обрезки */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  width: 735px;
+  height: 525px;
+
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  width: 300px;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
